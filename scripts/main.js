@@ -80,10 +80,10 @@
 
   myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/greeneboys.jpg') {
-      myImage.setAttribute ('src','images/greeneboys2.jpg');
+    if(mySrc === 'images/chargers.jpg') {
+      myImage.setAttribute ('src','images/chargers2.jpg');
     } else {
-        myImage.setAttribute ('src','images/greeneboys.jpg');
+        myImage.setAttribute ('src','images/chargers.jpg');
       }
     }
   
