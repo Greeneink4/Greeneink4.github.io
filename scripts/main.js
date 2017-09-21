@@ -78,7 +78,7 @@
 
   var myImage = document.querySelector('img');
 
-  myImage.onclick = function() {
+  myImage.onmouseover = function() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/chargers2.jpg') {
       myImage.setAttribute ('src','images/chargers3.jpg');
