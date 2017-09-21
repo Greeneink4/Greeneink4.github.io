@@ -88,10 +88,10 @@
     }
 
     var myButton = document.querySelector('button');
-    var myHeading = document.querySelector('h1');
+    var myHeading = document.querySelector('h3');
 
     function setUserName() {
-      var myName = prompt('Miguel Gringo');
+      var myName = prompt('Mike Greene');
       localStorage.setItem('name', myName);
       myHeading.textContent = 'Good day to you,' + myName;
     }
