@@ -73,8 +73,8 @@
   }
 
   // Your custom JavaScript goes here
-  //var myHelio = document.querySelector("h3");
-  //myHelio.textContent = "Hello World!";
+  var myHelio = document.querySelector("h1");
+  myHelio.textContent = "Hello World!";
 
   var myImage = document.querySelector('img');
 
@@ -88,10 +88,10 @@
     }
 
     var myButton = document.querySelector('button');
-    var myHeading = document.querySelector('h3');
+    var myHeading = document.querySelector('h1');
 
     function setUserName() {
-      var myName = prompt('Mike Greene');
+      var myName = prompt('Please enter your name');
       localStorage.setItem('name', myName);
       myHeading.textContent = 'Good day to you,' + myName;
     }
