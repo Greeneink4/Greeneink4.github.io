@@ -74,19 +74,19 @@
 
   // Your custom JavaScript goes here
 
-    var myImage = document.querySelector('img');
+   var myImage = document.querySelector('img');
 
-  myImage.onclick = function() {
+   myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/chargers2.jpg') {
       myImage.setAttribute ('src','images/chargers3.jpg');
     } else {
       myImage.setAttribute ('src','images/chargers2.jpg');
     }
-}
+   }
 
     // var myHeading = document.querySelector('h1');
-    // myHeading.textContent = 'Hello World!'
+    // myHeading.textContent = 'Hello World!';
 
     var myButton = document.querySelector('button');
     var myHeading = document.querySelector('h1');
@@ -103,10 +103,6 @@
       var storedName = localStorage.getItem('name');
       myHeading.textContent = 'Good day to you,' + storedName;
     }
-
-    myButton.onclick = function() {
+      myButton.onclick = function() {
       setUserName();
     }
-  
-  
-
