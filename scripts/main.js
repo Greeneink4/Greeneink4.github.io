@@ -74,10 +74,7 @@
 
   // Your custom JavaScript goes here
 
-  // var myHeading = document.querySelector('h1');
-  // myHeading.textContent = 'Hello World!'
-
-  var myImage = document.querySelector('img');
+    var myImage = document.querySelector('img');
 
   myImage.onmouseover = function() {
     var mySrc = myImage.getAttribute('src');
@@ -87,6 +84,9 @@
         myImage.setAttribute ('src','images/chargers2.jpg');
       }
     }
+
+    // var myHeading = document.querySelector('h1');
+    // myHeading.textContent = 'Hello World!'
 
     // var myButton = document.querySelector('button');
     // var myHeading = document.querySelector('h1');
