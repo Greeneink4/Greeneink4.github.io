@@ -86,6 +86,7 @@
         myImage.setAttribute ('src','images/chargers2.jpg');
       }
     }
+  })();
 
     var myButton = document.querySelector('button');
     var myHeading = document.querySelector('h1');
@@ -110,4 +111,4 @@
   
 
 
-})();
+
