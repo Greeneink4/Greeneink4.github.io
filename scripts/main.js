@@ -88,22 +88,22 @@
     // var myHeading = document.querySelector('h1');
     // myHeading.textContent = 'Hello World!';
 
-    var myButton = document.querySelector('button');
-    var myHeading = document.querySelector('h1');
+    // var myButton = document.querySelector('button');
+    // var myHeading = document.querySelector('h1');
 
-    function setUserName() {
-      var myName = prompt('Please enter your name.');
-      localStorage.setItem('name', myName);
-      myHeading.textContent = 'Good day to you,' + myName;
-    }
+    // function setUserName() {
+    //   var myName = prompt('Please enter your name.');
+    //   localStorage.setItem('name', myName);
+    //   myHeading.textContent = 'Good day to you,' + myName;
+    // }
 
-    if(!localStorage.getItem('name')) {
-      setUserName();
-    } else {
-      var storedName = localStorage.getItem('name');
-      myHeading.textContent = 'Good day to you,' + storedName;
-    }
+    // if(!localStorage.getItem('name')) {
+    //   setUserName();
+    // } else {
+    //   var storedName = localStorage.getItem('name');
+    //   myHeading.textContent = 'Good day to you,' + storedName;
+    // }
 
-    myButton.onclick = function() {
-      setUserName();
-    }})
+    // myButton.onclick = function() {
+    //   setUserName();
+    // }})
