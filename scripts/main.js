@@ -74,7 +74,7 @@
 
   // Your custom JavaScript goes here
 
-  var myHeading = document.querySelector('h3');
+  var myHeading = document.querySelector('h1');
   myHeading.textContent = 'Hello World!'
 
 
@@ -90,10 +90,10 @@
     }
 
     var myButton = document.querySelector('button');
-    var myHeading = document.querySelector('h3');
+    var myHeading = document.querySelector('h1');
 
     function setUserName() {
-      var myName = prompt('Please enter your name');
+      var myName = prompt('Please enter your name.');
       localStorage.setItem('name', myName);
       myHeading.textContent = 'Good day to you,' + myName;
     }
