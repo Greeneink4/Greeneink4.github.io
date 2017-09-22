@@ -77,7 +77,6 @@
   var myHeading = document.querySelector('h1');
   myHeading.textContent = 'Hello World!'
 
-
   var myImage = document.querySelector('img');
 
   myImage.onmouseover = function() {
