@@ -211,7 +211,7 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
-.section--center img {
-  border-color: #4DD0E1;
+.section--center img[alt] {
+  border-color: #040C68;
 
 }
