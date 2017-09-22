@@ -85,8 +85,6 @@
     }
    }
 
-    // var myHeading = document.querySelector('h1');
-    // myHeading.textContent = 'Hello World!';
 
     var myButton = document.querySelector('button#change-user');
     var myHeading = document.querySelector('h1');
