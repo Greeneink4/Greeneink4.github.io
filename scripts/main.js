@@ -74,6 +74,9 @@
 
   // Your custom JavaScript goes here
 
+  var myHeading = document.querySelector('h3');
+  myHeading.textContent = 'Hello World!'
+
 
   var myImage = document.querySelector('img');
 
@@ -87,7 +90,7 @@
     }
 
     var myButton = document.querySelector('button');
-    var myHeading = document.querySelector('h1');
+    var myHeading = document.querySelector('h3');
 
     function setUserName() {
       var myName = prompt('Please enter your name');
