@@ -74,8 +74,8 @@
 
   // Your custom JavaScript goes here
 
-  //var myHeading = document.querySelector('h1');
-  //myHeading.textContent = 'Hello World!'
+  var myHeading = document.querySelector('h1');
+  myHeading.textContent = 'Hello World!'
 
 
   var myImage = document.querySelector('img');
@@ -84,7 +84,7 @@
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/chargers2.jpg') {
       myImage.setAttribute ('src','images/chargers3.jpg');
-      } else {
+    } else {
         myImage.setAttribute ('src','images/chargers2.jpg');
       }
     }
