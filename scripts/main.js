@@ -74,8 +74,8 @@
 
   // Your custom JavaScript goes here
 
-  var myHeading = document.querySelector('h1');
-  myHeading.textContent = 'Hello World!'
+  // var myHeading = document.querySelector('h1');
+  // myHeading.textContent = 'Hello World!'
 
   var myImage = document.querySelector('img');
 
