@@ -106,4 +106,4 @@
     myButton.onclick = function() {
       setUserName();
     }
-  });
+  })();
