@@ -81,9 +81,9 @@
     if(mySrc === 'images/chargers2.jpg') {
       myImage.setAttribute ('src','images/chargers3.jpg');
     } else {
-        myImage.setAttribute ('src','images/chargers2.jpg');
-      }
+      myImage.setAttribute ('src','images/chargers2.jpg');
     }
+}
 
     // var myHeading = document.querySelector('h1');
     // myHeading.textContent = 'Hello World!'
