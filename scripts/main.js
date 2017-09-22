@@ -88,20 +88,20 @@
     }
   })();
 
-    var myButton = document.querySelector('button');
-    var myHeading = document.querySelector('h1');
+    var myButton = document.querySelector("button");
+    var myHeading = document.querySelector("h1");
 
     function setUserName() {
-      var myName = prompt('Please enter your name');
-      localStorage.setItem('name', myName);
-      myHeading.textContent = 'Good day to you,' + myName;
+      var myName = prompt("Please enter your name");
+      localStorage.setItem("name", myName);
+      myHeading.textContent = "Good day to you," + myName;
     }
 
-    if(!localStorage.getItem('name')) {
+    if(!localStorage.getItem("name")) {
       setUserName();
     } else {
-      var storedName = localStorage.getItem('name');
-      myHeading.textContent = 'Good day to you,' + myName;
+      var storedName = localStorage.getItem("name");
+      myHeading.textContent = "Good day to you," + myName;
     }
 
     myButton.onclick = function() {
